@@ -1,6 +1,10 @@
-# Developers Diary
+# Developer's Diary
 
 **Week 2**
+Established proposal - create a controller using arduino, which will be a platform
+that a user can sit/lie down on and, using 6-axis motion sensors, use their body
+to fly in VR.
+
 
 **Week 3**
 
