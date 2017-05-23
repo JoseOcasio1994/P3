@@ -6,6 +6,8 @@ Established proposal - create a controller using arduino, which will be a platfo
 that a user can sit/lie down on and, using 6-axis motion sensors, use their body
 to fly in VR.
 
+Planning the design - Used Fritzing to plan visually what the Arduino setup might look like, or
+at least how the wiring will be done.
 ![Arduino Design](https://github.com/JoseOcasio1994/P3/blob/master/Resources/Design.png?raw=true) 
 
 **Week 3**
