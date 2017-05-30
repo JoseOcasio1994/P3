@@ -12,8 +12,10 @@ at least how the wiring will be done.
 
 **Week 3**
 
-Created a project in Unreal and setup the control scheme. Mouse axis controls rotation of Airplane, Arduino will simulate Mouse axis controls. 
+*Day 1* - Created a project in Unreal and setup the control scheme. Mouse axis controls rotation of Airplane, Arduino will simulate Mouse axis controls. 
 Left/Right mouse buttons for firing, Vive controls to be added to replace mouse for shooting.
+
+*Day 2* - Created buildings, targets, and a score manager
 
 **Week 4**
 
