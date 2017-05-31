@@ -17,6 +17,9 @@ Left/Right mouse buttons for firing, Vive controls to be added to replace mouse 
 
 *Day 2* - Created buildings, targets, and a score manager
 
+*Day 3* - Started designing the code for the Arduino (Connect to bluetooth, read 
+Gyroscope raw data, convert Gyroscope data to Mouse x/y axis, send to PC via bluetooth).
+
 **Week 4**
 
 **Week 5**
