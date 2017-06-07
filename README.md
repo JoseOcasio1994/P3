@@ -22,6 +22,23 @@ Gyroscope raw data, convert Gyroscope data to Mouse x/y axis, send to PC via blu
 
 **Week 4**
 
+Did more research on the Vive and Arduino, and looked at the blog of a previous FIEA student who used the arduino.
+
+Vive
+- Tracks up to 16 objects
+- Has a tracking puck that can be attached to any object that you want to track
+
+Arduino
+- Pulse Sensor: detect pulse through finger or earlobe. Another game mechanic?
+- Sound Sensor / Mic : detect sound (some brands can detect a range of sound). More game mechanics?
+- Joystick library: Code to simulate a Game controller
+
+FIEA-n Blog
+- Mapping input values from sensors to desired output range
+- Delay loops to properly read sensors
+- How to properly use (Read/Write) the sensors
+- Create a custom library to hide implementation (so users only see a Update() and Get() call)
+
 **Week 5**
 
 **Week 6**
