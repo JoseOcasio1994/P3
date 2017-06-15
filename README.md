@@ -41,6 +41,16 @@ FIEA-n Blog
 
 **Week 5**
 
+Day 1 - Changed the idea for the game and decided to create a VR Parkour game. Also, decided
+to create a File Reader in Unreal so a text file can simulate a heartbeat while I wait
+to get parts
+
+Day 2 - Started working on new game design. Completed the File Reader, got a pseudo
+heartbeat in, and got basic controls in.
+
+Day 3 - Spent 3 hours trying to get wallrunning in, but failed. Decided to add Timed Doors, 
+moving spikes, and booby-trapped mazes. Received parts today.
+
 **Week 6**
 
 **Week 7**
