@@ -53,6 +53,14 @@ moving spikes, and booby-trapped mazes. Received parts today.
 
 **Week 6**
 
+Day 1 - Got Arduino To Read a button and a heart rate sensor.
+
+Day 2 - Created a C++ program to read from the Arduino through a serial port
+
+Day 3 - Spent several hours trying to configure an XBEE, but can't get computer to recognize it.
+
+Day 4 - 
+
 **Week 7**
 
 **Week 8**
