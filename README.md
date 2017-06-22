@@ -53,9 +53,13 @@ moving spikes, and booby-trapped mazes. Received parts today.
 
 **Week 6**
 
-Day 1 - Got Arduino To Read a button and a heart rate sensor.
+Day 1 - Got Arduino To Read a button and a heart rate sensor. Heart Rate sensor seems strange as even when not attached,
+it seems to constantly read values around the 500's.
 
-Day 2 - Created a C++ program to read from the Arduino through a serial port
+Day 2 - Created a C++ program to read from the Arduino through a serial port, several testing done to figure how to read
+values of the arduino properly. Result: since valuse are between 0-1023, I had to convert that to a string and pad it to
+have 4 chars so when I write to serial, the c++ program will constantly receive 6 bytes (4 chars + /r/n). Still some
+reading errors, might be due to loop delay in arduino code, reading loop delay in C++ code, or delay in accessing serial.
 
 Day 3 - Spent several hours trying to configure an XBEE, but can't get computer to recognize it.
 
