@@ -63,11 +63,13 @@ reading errors, might be due to loop delay in arduino code, reading loop delay i
 
 Day 3 - Spent several hours trying to configure an XBEE, but can't get computer to recognize it.
 
-Day 4 - 
-
 **Week 7**
 
+Finally got Xbees to communicate. Had to attach TX on Xbee to TX on Ardiuno and same for RX. This allows the arduino to act as a usb to allow configuring the XBee. Then I had to use XTCU to configure the XBees to have the same baud rate, channel, have each other's addresses, and set 1 as router and the other as coordinator.
+
 **Week 8**
+
+
 
 **Week 9**
 
