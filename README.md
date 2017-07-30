@@ -65,15 +65,20 @@ Day 3 - Spent several hours trying to configure an XBEE, but can't get computer 
 
 **Week 7**
 
-Finally got Xbees to communicate. Had to attach TX on Xbee to TX on Ardiuno and same for RX. This allows the arduino to act as a usb to allow configuring the XBee. Then I had to use XTCU to configure the XBees to have the same baud rate, channel, have each other's addresses, and set 1 as router and the other as coordinator.
+Finally got Xbees to communicate. Had to attach TX on Xbee to TX on Arduino and same for RX. This allows the arduino to act as a usb to allow configuring the XBee. Then I had to use XTCU to configure the XBees to have the same baud rate, channel, have each other's addresses, and set 1 as router and the other as coordinator.
 
 **Week 8**
 
-
+Got the XBee to send the data from the sensor. The coordinator has to be the one to send the data. AD0 marked as analog, and sample rate set to 75 ms. 50ms is absolute minimum, but data is inaccurate. Data is also integrated with Unreal.
 
 **Week 9**
 
+Spent entire week trying to figure out why data being read is max value of 1023. Have yet to solve this problem.
+
 **Week 10**
+
+Fixed the invalid sensor data problem. The XBee's sensor slots are 1.2V, but the heartbeat sensor produces 3.3//5v (depending on power source used). Used 3x 10k resistors, where I sampled after the second resistor, and then had the last resistor go to ground.
 
 **Week 11**
 
+Built the container for the wearable portion. A black box with the xbee on a bread board that has copper on one side, the heartbeat sensor, a battery pack, and a switch to turn on/off the device. Holes were cut in so the Xbee's antenna can stick out, the switch can be used, and the sensor worn. XBee inside container stopped working properly. Data was being sent every 2 seconds for 2 seconds, instead of a sample every 75ms. Connected sensor directly to arduino for final presentation.
